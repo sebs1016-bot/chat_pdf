@@ -8,7 +8,14 @@ from langchain.vectorstores import FAISS
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
-
+<style>
+.stApp {
+    background: linear-gradient(135deg, #2c0000, #d4a017);
+    color: #111;
+    font-family: 'Georgia', serif;
+}
+</style>
+""", unsafe_allow_html=True)
 # App title and presentation
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 st.write("Versión de Python:", platform.python_version())
